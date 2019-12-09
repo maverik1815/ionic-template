@@ -8,6 +8,10 @@ const routes: Routes = [
     path: 'popup',
     loadChildren: () => import('./popup/popup.module').then( m => m.PopupPageModule)
   },
+  {
+    path: 'network-status',
+    loadChildren: () => import('./network-status/network-status.module').then( m => m.NetworkStatusPageModule)
+  },
 ];
 
 @NgModule({

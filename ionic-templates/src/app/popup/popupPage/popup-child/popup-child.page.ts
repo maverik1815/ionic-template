@@ -14,6 +14,9 @@ export class PopupChildPage implements OnInit {
 
   ngOnInit() {
   }
+  /**
+   * close the top modal
+   */
   closeModal() {
     this.modal.dismiss().then(res=> {
       console.log('model closed');

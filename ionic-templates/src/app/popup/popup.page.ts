@@ -15,6 +15,9 @@ export class PopupPage implements OnInit {
 
   ngOnInit() {
   }
+  /**
+   * opens modal
+   */
  async  openModal() {
     const modal = await this.modal.create({
       component: PopupChildPage

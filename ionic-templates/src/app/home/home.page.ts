@@ -17,4 +17,8 @@ export class HomePage {
 
   }
 
+  loadNetworkPage() {
+    this.router.navigate(['network-status']);
+  }
+
 }
